@@ -1,0 +1,11 @@
+import math
+n=int(input('введите число для проверки:'))
+def ps(m):
+    n=int(math.sqrt(m))
+    return n*n==m
+    def fib(m):
+        return ps(5*m*m+4) or ps(5*m*m-4)
+        if fib(n)==True:
+            print(n, "число Фибоначчи")
+        else:
+            print(n, "не число Фибоначчи")
